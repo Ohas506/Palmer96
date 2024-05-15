@@ -7662,28 +7662,24 @@ campaignTrail_temp.jet_data = [{
 ]
 campaignTrail_temp.multiple_endings=true
 cyoAdventure = function (a) {
-ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1]
+}
 endingPicker = (out, totv, aa, quickstats) => {
-    ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1]
     used=false
-    //out = "win", "loss", or "tie" for your candidate [24] == 8090
-    //totv = total votes in entire election
-    //aa = all final overall results data
-    //quickstats = relevant data on candidate performance (format: your candidate's electoral vote count, your candidate's popular vote share, your candidate's raw vote total)
-   if (quickstats[0] >= 13) {
-    if (used != true) {
-        setInterval(function () {
-            used = true;
-            imgg = document.getElementsByClassName("person_image")[0];
-            if (imgg != null) {
-                imgg.src = "https://itsastronomical.com/assets/1876/truce.png";
-            }
-        }, 100);
-    }
-     return "<h3>A truce, not a compromise...</h3><p>...but a chance for high-toned gentlemen to retire gracefully from their very civil declarations of war.</p><p>Thanks to the electoral commission, you have won the 1876 Presidential Election, and will be the next President. As promised, you will be ending Reconstruction. Florida, South Carolina, and Louisiana's Republican governments will likely be voted out soon. Black voters protected by these governments will be at risk, now more than ever. You've also likely lost the popular vote, so you'll have to deal with the controversy around that.</p><p>If you wish to be remembered well, you must pull the country out of this economic slump, and clear corruption from the Government, although given the circumstances of your win, that will be a bit ironic. If you can accomplish these tasks, who is to say you can't leave your hopefully Republican successor with a strong Union? Just remember what you conceded.</p>";
-    }
-}
-}
+    if (quickstats[0] = 13) {
+     //If you want to enable replacing the image based upon your performance, copy from here....
+       if (used != true) {
+           setInterval(function () {
+               used = true;
+               imgg = document.getElementsByClassName("person_image")[0];
+               if (imgg != null) {
+                   imgg.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/%22A_sail%21_A_sail%21%21%22_LCCN2012645216.jpg/330px-%22A_sail%21_A_sail%21%21%22_LCCN2012645216.jpg";
+               }
+           }, 100);
+       }
+       // to here!
+        return "<font color='black'><h3>We have just finished counting the votes in Kentucky......</h3><p>and it appears that by the thinnest of margins you have won your and your running mates, home state! It seems that dissatisfaction among Cleavelandite Democrats coupled with a heavy investment from your campaign in Kentucky, has paid off! This has no doubt shown the nation that Byrans victory over the Democratic nomination was only a temporary flirtation with populism on the part of the party, and that the Gold Democrats are still a force to be reckoned with. It is likely that in four years, the gold wing of the party will recapture its nomination. All of this is down to your spectacular campaign, one that will no doubt be memorialized in the history books of America.</p></font>";
+   }
+ }
               
 campaignTrail_temp.candidate_image_url = 'https://upload.wikimedia.org/wikipedia/commons/c/ca/JohnMPalmer.png';
 campaignTrail_temp.running_mate_image_url = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuBzgIHi4gNT-oIqwOtiH-Z3-rB8kQ5_ghRD8TEUH8nHMeSZJfgQFyvKBVSJ6pqOB6Sqw&usqp=CAU';
