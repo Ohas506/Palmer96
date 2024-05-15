@@ -7660,12 +7660,13 @@ campaignTrail_temp.jet_data = [{
     }
 }
 ]
+
+cyoAdventure = function (a) {}
 campaignTrail_temp.multiple_endings=true
-cyoAdventure = function (a) {
-}
 endingPicker = (out, totv, aa, quickstats) => {
+ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1]
     used=false
-    if (quickstats[0] = 13) {
+    if (quickstats[0] == 13) {
      //If you want to enable replacing the image based upon your performance, copy from here....
        if (used != true) {
            setInterval(function () {
@@ -7678,8 +7679,9 @@ endingPicker = (out, totv, aa, quickstats) => {
        }
        // to here!
         return "<font color='black'><h3>We have just finished counting the votes in Kentucky......</h3><p>and it appears that by the thinnest of margins you have won your and your running mates, home state! It seems that dissatisfaction among Cleavelandite Democrats coupled with a heavy investment from your campaign in Kentucky, has paid off! This has no doubt shown the nation that Byrans victory over the Democratic nomination was only a temporary flirtation with populism on the part of the party, and that the Gold Democrats are still a force to be reckoned with. It is likely that in four years, the gold wing of the party will recapture its nomination. All of this is down to your spectacular campaign, one that will no doubt be memorialized in the history books of America.</p></font>";
-   } 
+   }
 }
+
               
 campaignTrail_temp.candidate_image_url = 'https://upload.wikimedia.org/wikipedia/commons/c/ca/JohnMPalmer.png';
 campaignTrail_temp.running_mate_image_url = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuBzgIHi4gNT-oIqwOtiH-Z3-rB8kQ5_ghRD8TEUH8nHMeSZJfgQFyvKBVSJ6pqOB6Sqw&usqp=CAU';
