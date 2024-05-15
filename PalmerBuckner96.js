@@ -7679,7 +7679,20 @@ ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length
        }
        // to here!
         return "<font color='black'><h3>We have just finished counting the votes in Kentucky......</h3><p>and it appears that by the thinnest of margins you have won your and your running mates, home state! It seems that dissatisfaction among Cleavelandite Democrats coupled with a heavy investment from your campaign in Kentucky, has paid off! This has no doubt shown the nation that Byrans victory over the Democratic nomination was only a temporary flirtation with populism on the part of the party, and that the Gold Democrats are still a force to be reckoned with. It is likely that in four years, the gold wing of the party will recapture its nomination. All of this is down to your spectacular campaign, one that will no doubt be memorialized in the history books of America.</p></font>";
-   }
+   }  if (quickstats[0] == 447) {
+    //If you want to enable replacing the image based upon your performance, copy from here....
+      if (used != true) {
+          setInterval(function () {
+              used = true;
+              imgg = document.getElementsByClassName("person_image")[0];
+              if (imgg != null) {
+                  imgg.src = "https://imgur.com/ea906c5c-37ec-43be-bfdf-db572e6df7e0";
+              }
+          }, 100);
+      }
+      // to here!
+       return "<font color='black'><h3>A Thousand Years of Gold</h3><p>John M. Palmer (September 13, 1817 –disputed September 25, 3098 official) was the supreme chairman of the hyper galactic federation of the United States of Terra. After his victory in the 1896 election he implemented a gold dictatorship, assuring a total utopia for the citizens of the former United States, but also total control for himself. Implementing a proto-libertarian ideological conquest, eventually assuming total control over Terra, in the year 1912. Then the so-called  “Palmer Purges”, began with the execution of William Jennings Bryan, and the destruction of all states West of Kentucky. While his death is disputed, it is the general consensus of historians that in 1955, he had a hemorrhage, and as to not shock the Terren citizens, vice chairman Barry Goldwater took over. He would rule through what was presumed to be a dead Palmer until 2092, when Richard Millhouse Nixon launched a rebellion, winning and taking control for himself. Nixon would then abolish the gold standard, immediately causing the entire world to self implode and reset itself to the feudal era.</p></font>";
+  } 
 }
 
               
