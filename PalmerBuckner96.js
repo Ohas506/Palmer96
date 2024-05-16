@@ -6786,7 +6786,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 62,
             "candidate": 20,
             "affected_candidate": 22,
-            "state_multiplier": 0.44
+            "state_multiplier": 0.14
         }
     },
     {
@@ -6797,7 +6797,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 65,
             "candidate": 20,
             "affected_candidate": 22,
-            "state_multiplier": 0.36
+            "state_multiplier": 0.16
         }
     },
     {
@@ -7692,6 +7692,20 @@ ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length
       }
       // to here!
        return "<font color='black'><h3>A Thousand Years of Gold</h3><p>John M. Palmer (September 13, 1817 –disputed September 25, 3098 official) was the supreme chairman of the hyper galactic federation of the United States of Terra. After his victory in the 1896 election he implemented a gold dictatorship, assuring a total utopia for the citizens of the former United States, but also total control for himself. Implementing a proto-libertarian ideological conquest, eventually assuming total control over Terra, in the year 1912. Then the so-called  “Palmer Purges”, began with the execution of William Jennings Bryan, and the destruction of all states West of Kentucky. While his death is disputed, it is the general consensus of historians that in 1955, he had a hemorrhage, and as to not shock the Terren citizens, vice chairman Barry Goldwater took over. He would rule through what was presumed to be a dead Palmer until 2092, when Richard Millhouse Nixon launched a rebellion, winning and taking control for himself. Nixon would then abolish the gold standard, immediately causing the entire world to self implode and reset itself to the feudal era.</p></font>";
+  } 
+  if (quickstats[0] <= 3) {
+    //If you want to enable replacing the image based upon your performance, copy from here....
+      if (used != true) {
+          setInterval(function () {
+              used = true;
+              imgg = document.getElementsByClassName("person_image")[0];
+              if (imgg != null) {
+                  imgg.src = "https://preview.redd.it/7mhmqnzbwv701.jpg?width=640&crop=smart&auto=webp&s=a876588906a61a5661b4ed658f751f3e8f2f15dc";
+              }
+          }, 100);
+      }
+      // to here!
+       return "<font color='black'><h3>A Great Disappointment</h3><p>As the votes slowly get counted, it appears that you have won roughly 1% of the nation's popular vote and no states, far less than anybody could have predicted. At the start of the convention some were predicting that the party could pull a million in votes, it seems that this was but foolish optimism. There were warning signs, your seaming embrace of McKinley, your choice of another elderly man to serve on your ticket, among others. This dismal showing has proven to the nation that the Democratic party has moved on from president Cleveland, and on to the policies of the Bryans and the Donnalies. It's likely that your campaign will go down as the dying breaths of the American Classical Liberal movement.</p></font>";
   } 
 }
 
