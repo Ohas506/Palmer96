@@ -7664,50 +7664,50 @@ campaignTrail_temp.jet_data = [{
 cyoAdventure = function (a) {}
 campaignTrail_temp.multiple_endings=true
 endingPicker = (out, totv, aa, quickstats) => {
-    ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1]
-        used=false
-       if (quickstats[0] == 447) {
-        //If you want to enable replacing the image based upon your performance, copy from here....
-          if (used != true) {
-              setInterval(function () {
-                  used = true;
-                  imgg = document.getElementsByClassName("person_image")[0];
-                  if (imgg != null) {
-                      imgg.src = "https://imgur.com/ea906c5c-37ec-43be-bfdf-db572e6df7e0";
-                  }
-              }, 100);
-          }
-          // to here!
-           return "<font color='black'><h3>A Thousand Years of Gold</h3><p>John M. Palmer (September 13, 1817 –disputed September 25, 3098 official) was the supreme chairman of the hyper galactic federation of the United States of Terra. After his victory in the 1896 election he implemented a gold dictatorship, assuring a total utopia for the citizens of the former United States, but also total control for himself. Implementing a proto-libertarian ideological conquest, eventually assuming total control over Terra, in the year 1912. Then the so-called  “Palmer Purges”, began with the execution of William Jennings Bryan, and the destruction of all states West of Kentucky. While his death is disputed, it is the general consensus of historians that in 1955, he had a hemorrhage, and as to not shock the Terren citizens, vice chairman Barry Goldwater took over. He would rule through what was presumed to be a dead Palmer until 2092, when Richard Millhouse Nixon launched a rebellion, winning and taking control for himself. Nixon would then abolish the gold standard, immediately causing the entire world to self implode and reset itself to the feudal era.</p></font>";
-      } 
-      if ((quickstats[0] <= 3) && (quickstats[1] <= 5)) {
-        //If you want to enable replacing the image based upon your performance, copy from here....
-          if (used != true) {
-              setInterval(function () {
-                  used = true;
-                  imgg = document.getElementsByClassName("person_image")[0];
-                  if (imgg != null) {
-                      imgg.src = "https://preview.redd.it/7mhmqnzbwv701.jpg?width=640&crop=smart&auto=webp&s=a876588906a61a5661b4ed658f751f3e8f2f15dc";
-                  }
-              }, 100);
-          }
-          // to here!
-           return "<font color='black'><h3>A Great Disappointment</h3><p>As the votes slowly get counted, it appears that you have won roughly 1% of the nation's popular vote and no states, far less than anybody could have predicted. At the start of the convention some were predicting that the party could pull a million in votes, it seems that this was but foolish optimism. There were warning signs, your seaming embrace of McKinley, your choice of another elderly man to serve on your ticket, among others. This dismal showing has proven to the nation that the Democratic party has moved on from president Cleveland, and on to the policies of the Bryans and the Donnalies. It's likely that your campaign will go down as the dying breaths of the American Classical Liberal movement.</p></font>";
+ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1]
+    used=false
+    if (quickstats[0] == 13) {
+     //If you want to enable replacing the image based upon your performance, copy from here....
+       if (used != true) {
+           setInterval(function () {
+               used = true;
+               imgg = document.getElementsByClassName("person_image")[0];
+               if (imgg != null) {
+                   imgg.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/%22A_sail%21_A_sail%21%21%22_LCCN2012645216.jpg/330px-%22A_sail%21_A_sail%21%21%22_LCCN2012645216.jpg";
+               }
+           }, 100);
+       }
+       // to here!
+        return "<font color='black'><h3>We have just finished counting the votes in Kentucky......</h3><p>and it appears that by the thinnest of margins you have won your and your running mates, home state! It seems that dissatisfaction among Cleavelandite Democrats coupled with a heavy investment from your campaign in Kentucky, has paid off! This has no doubt shown the nation that Byrans victory over the Democratic nomination was only a temporary flirtation with populism on the part of the party, and that the Gold Democrats are still a force to be reckoned with. It is likely that in four years, the gold wing of the party will recapture its nomination. All of this is down to your spectacular campaign, one that will no doubt be memorialized in the history books of America.</p></font>";
+   }  if (quickstats[0] == 447) {
+    //If you want to enable replacing the image based upon your performance, copy from here....
+      if (used != true) {
+          setInterval(function () {
+              used = true;
+              imgg = document.getElementsByClassName("person_image")[0];
+              if (imgg != null) {
+                  imgg.src = "https://imgur.com/ea906c5c-37ec-43be-bfdf-db572e6df7e0";
+              }
+          }, 100);
       }
-      if ((quickstats[0] < 3) && (quickstats[1] >= 5)) 
-        {
-            if (used != true) {
-                setInterval(function () {
-                    used = true;
-                    imgg = document.getElementsByClassName("person_image")[0];
-                    if (imgg != null) {
-                        imgg.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRoDMi34h_CnZ0p0JSLSZQJBi9Em1eDO0Kvh_tq20YJzK_L7G658PEs3uo8cVatz6qsPI&usqp=CAU";
-                    }
-                }, 100);
-            }
-                return "<h3>”5% of the nations populer vote...”</h3><p> </p>"
-        } 
-    }
+      // to here!
+       return "<font color='black'><h3>A Thousand Years of Gold</h3><p>John M. Palmer (September 13, 1817 –disputed September 25, 3098 official) was the supreme chairman of the hyper galactic federation of the United States of Terra. After his victory in the 1896 election he implemented a gold dictatorship, assuring a total utopia for the citizens of the former United States, but also total control for himself. Implementing a proto-libertarian ideological conquest, eventually assuming total control over Terra, in the year 1912. Then the so-called  “Palmer Purges”, began with the execution of William Jennings Bryan, and the destruction of all states West of Kentucky. While his death is disputed, it is the general consensus of historians that in 1955, he had a hemorrhage, and as to not shock the Terren citizens, vice chairman Barry Goldwater took over. He would rule through what was presumed to be a dead Palmer until 2092, when Richard Millhouse Nixon launched a rebellion, winning and taking control for himself. Nixon would then abolish the gold standard, immediately causing the entire world to self implode and reset itself to the feudal era.</p></font>";
+  } 
+  if (quickstats[0] <= 3) {
+    //If you want to enable replacing the image based upon your performance, copy from here....
+      if (used != true) {
+          setInterval(function () {
+              used = true;
+              imgg = document.getElementsByClassName("person_image")[0];
+              if (imgg != null) {
+                  imgg.src = "https://preview.redd.it/7mhmqnzbwv701.jpg?width=640&crop=smart&auto=webp&s=a876588906a61a5661b4ed658f751f3e8f2f15dc";
+              }
+          }, 100);
+      }
+      // to here!
+       return "<font color='black'><h3>A Great Disappointment</h3><p>As the votes slowly get counted, it appears that you have won roughly 1% of the nation's popular vote and no states, far less than anybody could have predicted. At the start of the convention some were predicting that the party could pull a million in votes, it seems that this was but foolish optimism. There were warning signs, your seaming embrace of McKinley, your choice of another elderly man to serve on your ticket, among others. This dismal showing has proven to the nation that the Democratic party has moved on from president Cleveland, and on to the policies of the Bryans and the Donnalies. It's likely that your campaign will go down as the dying breaths of the American Classical Liberal movement.</p></font>";
+  } 
+}
 
               
 campaignTrail_temp.candidate_image_url = 'https://upload.wikimedia.org/wikipedia/commons/c/ca/JohnMPalmer.png';
