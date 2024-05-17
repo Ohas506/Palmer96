@@ -1,4 +1,3 @@
-campaignTrail_temp.cyoa = true
 campaignTrail_temp.questions_json = [
     {
         "model": "campaign_trail.question",
@@ -14,7 +13,7 @@ campaignTrail_temp.questions_json = [
         "pk": 166,
         "fields": {
             "priority": 0,
-            "description": "What do you have to say about the selection of your running mate, Simon Bolivar Buckner?",
+            "description": "What do you have to say about the selection of your running mate, Edward S. Bragg?",
             "likelihood": 1
         }
     },
@@ -113,7 +112,7 @@ campaignTrail_temp.questions_json = [
         "pk": 208,
         "fields": {
             "priority": 2,
-            "description": " President Cleveland opposed the annexation of Hawaii, calling the pro annexation coup by Hawaiian business interests, something supported by the Republican party, a “subversion of the constitutional Government of Hawaii,\".  Do you agree with him?",
+            "description": " President Cleveland opposed the annexation of Hawaii, calling the pro annexation coup by Hawaiian business interests, something supported by the Republican party, a “subversion of the constitutional Government of Hawaii,\". Do you agree with him?",
             "likelihood": 1
         }
     },
@@ -167,7 +166,7 @@ campaignTrail_temp.questions_json = [
         "pk": 223,
         "fields": {
             "priority": 2,
-            "description": "Some voters have raised concerns about you and your running mates' advanced ages. How will you ease their concerns?",
+            "description": "Braggs friendliness with the Republicans has become a sore spot amongst voters who see you as a true third party candidate, one opposed to the Republicans just as much as the Democrats. What will you say regarding this?\n",
             "likelihood": 1
         }
     },
@@ -249,7 +248,7 @@ campaignTrail_temp.answers_json = [
         "pk": 1356,
         "fields": {
             "question": 166,
-            "description": "Buckner represents the unity of this ticket. I, a Union general, and Buckner, a Confederate one, are serving side by side for the advancement of this country!"
+            "description": "Bragg is a skilled and accomplished man, having served as the minster to Mexico, his foreign policy  experience is invaluable"
         }
     },
     {
@@ -257,7 +256,7 @@ campaignTrail_temp.answers_json = [
         "pk": 1357,
         "fields": {
             "question": 166,
-            "description": "Buckner served as the talented and well respected governor of my home state of Kentucky, where as governor he stood in strong support of the gold standard as well as the policies of president Cleveland. \n"
+            "description": "Bragg served alongside me in the Civil War, where he proved to be a skilled and courageous commander. He will bring this same courage to my ticket.\n"
         }
     },
     {
@@ -433,7 +432,7 @@ campaignTrail_temp.answers_json = [
         "pk": 1432,
         "fields": {
             "question": 187,
-            "description": "Well the endorsement of such a prestigious paper is a representation of the seriousness of my campaign, and my ability to compete with Bryan and McKinley"
+            "description": "Well the endorsements of such prestigious papers is a representation of the seriousness of my campaign, and my ability to compete with Bryan and McKinley"
         }
     },
     {
@@ -585,7 +584,7 @@ campaignTrail_temp.answers_json = [
         "pk": 1475,
         "fields": {
             "question": 196,
-            "description": "I stand  for limited government, that means low tariffs and the preservation of the Gold Standard."
+            "description": "I stand for limited government, that means low tariffs and the preservation of the Gold Standard."
         }
     },
     {
@@ -705,7 +704,7 @@ campaignTrail_temp.answers_json = [
         "pk": 1559,
         "fields": {
             "question": 223,
-            "description": "I will commit myself and Buckner to a vigorous and active speaking tour across the nation. This will convince people that I am a serious candidate."
+            "description": "I will approach Bragg privately, and ask him to dissociate himself from the Republicans."
         }
     },
     {
@@ -713,7 +712,7 @@ campaignTrail_temp.answers_json = [
         "pk": 1560,
         "fields": {
             "question": 223,
-            "description": "It's best not to give this issue the light of day. I will focus on my policy positions instead"
+            "description": "I will give several speeches, where I attack McKinley's record on tariffs, as well as his tacit support for prohibition."
         }
     },
     {
@@ -825,7 +824,7 @@ campaignTrail_temp.answers_json = [
         "pk": 2591,
         "fields": {
             "question": 223,
-            "description": "Let's remind people that it was our generation that fought in the civil war, and that our ticket represents the unity of this nation following such a divisive event."
+            "description": "No comment. Are primary goal is defeating Bryan."
         }
     },
     {
@@ -4070,7 +4069,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 20,
             "state": 60,
-            "state_multiplier": 0
+            "state_multiplier": 0.15
         }
     },
     {
@@ -4079,7 +4078,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 20,
             "state": 61,
-            "state_multiplier": 0
+            "state_multiplier": 0.44
         }
     },
     {
@@ -4088,7 +4087,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 20,
             "state": 62,
-            "state_multiplier": 0
+            "state_multiplier": 0.2
         }
     },
     {
@@ -4115,7 +4114,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 20,
             "state": 65,
-            "state_multiplier": 0.22
+            "state_multiplier": 0.1
         }
     },
     {
@@ -4160,7 +4159,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 20,
             "state": 70,
-            "state_multiplier": 0
+            "state_multiplier": 0.07
         }
     },
     {
@@ -4268,7 +4267,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 20,
             "state": 82,
-            "state_multiplier": 0
+            "state_multiplier": 0.13
         }
     },
     {
@@ -4385,7 +4384,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 20,
             "state": 95,
-            "state_multiplier": 0
+            "state_multiplier": 0.22
         }
     },
     {
@@ -4484,7 +4483,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 21,
             "state": 61,
-            "state_multiplier": 1
+            "state_multiplier": 1.9
         }
     },
     {
@@ -4493,7 +4492,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 21,
             "state": 62,
-            "state_multiplier": 1
+            "state_multiplier": 1.6
         }
     },
     {
@@ -4502,7 +4501,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 21,
             "state": 63,
-            "state_multiplier": 1
+            "state_multiplier": 1.
         }
     },
     {
@@ -4673,7 +4672,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 21,
             "state": 82,
-            "state_multiplier": 1
+            "state_multiplier": 1.22
         }
     },
     {
@@ -4889,7 +4888,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 22,
             "state": 61,
-            "state_multiplier": 1
+            "state_multiplier": 1.8
         }
     },
     {
@@ -4898,7 +4897,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 22,
             "state": 62,
-            "state_multiplier": 1
+            "state_multiplier": 1.8
         }
     },
     {
@@ -5467,7 +5466,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1559,
             "candidate": 20,
             "affected_candidate": 20,
-            "global_multiplier": -0.08
+            "global_multiplier": -0.04
         }
     },
     {
@@ -5477,7 +5476,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1560,
             "candidate": 20,
             "affected_candidate": 20,
-            "global_multiplier": -0.010
+            "global_multiplier": -0.01
         }
     },
     {
@@ -5617,7 +5616,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1463,
             "candidate": 20,
             "affected_candidate": 22,
-            "global_multiplier": 0.03
+            "global_multiplier": 0.003
         }
     },
     {
@@ -5837,7 +5836,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1432,
             "candidate": 20,
             "affected_candidate": 20,
-            "global_multiplier": 0.1
+            "global_multiplier": 0.3
         }
     },
     {
@@ -6028,6 +6027,16 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 20,
             "affected_candidate": 20,
             "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2630,
+        "fields": {
+            "answer": 2591,
+            "candidate": 20,
+            "affected_candidate": 22,
+            "global_multiplier": 0.03
         }
     }
 ]
@@ -6348,7 +6357,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 2558,
         "fields": {
             "answer": 1431,
-            "issue": "6",
+            "issue": 6,
             "issue_score": -0.55,
             "issue_importance": 3
         }
@@ -6368,7 +6377,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 2581,
         "fields": {
             "answer": 1615,
-            "issue": "6",
+            "issue": 6,
             "issue_score": -0.55,
             "issue_importance": 3
         }
@@ -6388,7 +6397,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 2601,
         "fields": {
             "answer": 2598,
-            "issue": "6",
+            "issue": 6,
             "issue_score": 1,
             "issue_importance": 4
         }
@@ -6408,7 +6417,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 2620,
         "fields": {
             "answer": 1455,
-            "issue": "6",
+            "issue": 6,
             "issue_score": 0.88,
             "issue_importance": 3
         }
@@ -6418,7 +6427,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 2624,
         "fields": {
             "answer": 1457,
-            "issue": "6",
+            "issue": 6,
             "issue_score": -0.78,
             "issue_importance": 3
         }
@@ -6775,7 +6784,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 61,
             "candidate": 20,
             "affected_candidate": 22,
-            "state_multiplier": 0.4
+            "state_multiplier": 0.004
         }
     },
     {
@@ -6786,7 +6795,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 62,
             "candidate": 20,
             "affected_candidate": 22,
-            "state_multiplier": 0.14
+            "state_multiplier": 0.0014
         }
     },
     {
@@ -6797,7 +6806,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 65,
             "candidate": 20,
             "affected_candidate": 22,
-            "state_multiplier": 0.16
+            "state_multiplier": 0.0016
         }
     },
     {
@@ -6918,7 +6927,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 61,
             "candidate": 20,
             "affected_candidate": 22,
-            "state_multiplier": 0.4
+            "state_multiplier": 0.004
         }
     },
     {
@@ -6929,7 +6938,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 62,
             "candidate": 20,
             "affected_candidate": 22,
-            "state_multiplier": 0.04
+            "state_multiplier": 0.004
         }
     },
     {
@@ -6970,7 +6979,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 1356,
             "candidate": 20,
-            "answer_feedback": "While the unity of this ticket is currently something that voters take note off, especially in your home states of Kentucky, many voters also express concerns over buckner's age, as both you and him are in your seventies. \n"
+            "answer_feedback": "Touting Braggs foreign policy credentials is a smart move. Despite this, his friendliness with McKinley and the Republicans undermines your notion of an independent campaign.\n"
         }
     },
     {
@@ -6979,7 +6988,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 1357,
             "candidate": 20,
-            "answer_feedback": "Touting this tickets strong Kentuckian connections as well as Buckner's support for the policies of president Cleveland go over well with Gold Democrats, especially those in Kentucky, however many voters also express concerns over buckner's age, as both you and him are in your seventies.\n"
+            "answer_feedback": "Braggs civil war service. like yours, is certainly something to be admired. Despite this, his friendliness with McKinley and the Republicans undermines your notion of an independent campaign.\n\n"
         }
     },
     {
@@ -7420,7 +7429,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 1617,
             "candidate": 20,
-            "answer_feedback": "I hold strong about not getting involved,  I want to instead hedge my bets in an ever changing political climate. Despite this I recognize the importance of your ticket having a strong showing, and in turn I give a speech in support of low tariffs and the gold standard,  alluding to the ongoing presidential race. Whether this will help you or McKinley remains to be seen."
+            "answer_feedback": "I hold strong about not getting involved, I want to instead hedge my bets in an ever changing political climate. Despite this I recognize the importance of your ticket having a strong showing, and in turn I give a speech in support of low tariffs and the gold standard, alluding to the ongoing presidential race. Whether this will help you or McKinley remains to be seen."
         }
     },
     {
@@ -7519,7 +7528,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 1559,
             "candidate": 20,
-            "answer_feedback": "While this helps soothe some people's concern, you and your running mates' old age will still continue to be a sore spot for your campaign."
+            "answer_feedback": "This has mixed results. While Bragg agrees to disassociate himself, his statements come of as disingenuous given his previous friendliness with the Republicans."
         }
     },
     {
@@ -7528,7 +7537,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 1560,
             "candidate": 20,
-            "answer_feedback": "put The only thing worse that being perceived as unserious, is not addressing such allegations"
+            "answer_feedback": "This helps improve voters perceptions about your campagin."
         }
     },
     {
@@ -7537,7 +7546,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 2591,
             "candidate": 20,
-            "answer_feedback": "This is certainly a point of strength for your campaign, but this response still does not fully address the issue at hand."
+            "answer_feedback": "This confirms to voters that your a spoiler for Bryan."
         }
     },
     {
@@ -7609,7 +7618,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 1524,
             "candidate": 20,
-            "answer_feedback": "This confirms to voters that you're a puppet to the Republicans.  Regardless of this McKinley is able to use his funds very effectively."
+            "answer_feedback": "This confirms to voters that you're a puppet to the Republicans. Regardless of this McKinley is able to use his funds very effectively."
         }
     },
     {
@@ -7649,17 +7658,67 @@ campaignTrail_temp.answer_feedback_json = [
         }
     }
 ]
-
-
-
+campaignTrail_temp.cyoa = true
+cyoAdventure = function (a) {}
+campaignTrail_temp.multiple_endings=true
 campaignTrail_temp.jet_data = [{
     "nicknames": {
         "20": "Palmer",
         "21": "Bryan",
         "22": "McKinley"
-    }
+    },
 }
 ]
+endingPicker = (out, totv, aa, quickstats) => {
+    ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1]
+        used=false
+       if (quickstats[0] == 447) {
+        //If you want to enable replacing the image based upon your performance, copy from here....
+          if (used != true) {
+              setInterval(function () {
+                  used = true;
+                  imgg = document.getElementsByClassName("person_image")[0];
+                  if (imgg != null) {
+                      imgg.src = "https://imgur.com/ea906c5c-37ec-43be-bfdf-db572e6df7e0";
+                  }
+              }, 100);
+          }
+          // to here!
+           return "<font color='black'><h3>A Thousand Years of Gold</h3><p>John M. Palmer (September 13, 1817 –disputed September 25, 3098 official) was the supreme chairman of the hyper galactic federation of the United States of Terra. After his victory in the 1896 election he implemented a gold dictatorship, assuring a total utopia for the citizens of the former United States, but also total control for himself. Implementing a proto-libertarian ideological conquest, eventually assuming total control over Terra, in the year 1912. Then the so-called  “Palmer Purges”, began with the execution of William Jennings Bryan, and the destruction of all states West of Kentucky. While his death is disputed, it is the general consensus of historians that in 1955, he had a hemorrhage, and as to not shock the Terren citizens, vice chairman Barry Goldwater took over. He would rule through what was presumed to be a dead Palmer until 2092, when Richard Millhouse Nixon launched a rebellion, winning and taking control for himself. Nixon would then abolish the gold standard, immediately causing the entire world to self implode and reset itself to the feudal era.</p></font>";
+      } 
+      if ((quickstats[0] <= 3) && (quickstats[1] <= 5)) {
+        //If you want to enable replacing the image based upon your performance, copy from here....
+          if (used != true) {
+              setInterval(function () {
+                  used = true;
+                  imgg = document.getElementsByClassName("person_image")[0];
+                  if (imgg != null) {
+                      imgg.src = "https://preview.redd.it/7mhmqnzbwv701.jpg?width=640&crop=smart&auto=webp&s=a876588906a61a5661b4ed658f751f3e8f2f15dc";
+                  }
+              }, 100);
+          }
+          // to here!
+           return "<font color='black'><h3>A Great Disappointment</h3><p>As the votes slowly get counted, it appears that you have won roughly 1% of the nation's popular vote and no states, far less than anybody could have predicted. At the start of the convention some were predicting that the party could pull a million in votes, it seems that this was but foolish optimism. There were warning signs, your seaming embrace of McKinley, your choice of another elderly man to serve on your ticket, among others. This dismal showing has proven to the nation that the Democratic party has moved on from president Cleveland, and on to the policies of the Bryans and the Donnalies. It's likely that your campaign will go down as the dying breaths of the American Classical Liberal movement.</p></font>";
+      }
+      if ((quickstats[0] < 3) && (quickstats[1] >= 5)) 
+        {
+            if (used != true) {
+                setInterval(function () {
+                    used = true;
+                    imgg = document.getElementsByClassName("person_image")[0];
+                    if (imgg != null) {
+                        imgg.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRoDMi34h_CnZ0p0JSLSZQJBi9Em1eDO0Kvh_tq20YJzK_L7G658PEs3uo8cVatz6qsPI&usqp=CAU";
+                    }
+                }, 100);
+            }
+                return "<h3>”5% of the nations populer vote...”</h3><p> </p>"
+        } 
+    }
 
-cyoAdventure = function (a) {}
-campaignTrail_temp.multiple_endings=true
+campaignTrail_temp.candidate_image_url = 'https://upload.wikimedia.org/wikipedia/commons/c/ca/JohnMPalmer.png';
+campaignTrail_temp.running_mate_image_url = 'https://upload.wikimedia.org/wikipedia/commons/f/fa/ESBragg.jpg';
+campaignTrail_temp.candidate_last_name = 'Palmer';
+campaignTrail_temp.running_mate_last_name = 'Bragg';
+campaignTrail_temp.player_answers = [];
+campaignTrail_temp.player_visits = [];
+campaignTrail_temp.answer_feedback_flg = 1;
