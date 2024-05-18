@@ -5766,7 +5766,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1465,
             "candidate": 20,
             "affected_candidate": 20,
-            "global_multiplier": 0.01
+            "global_multiplier": 0.0
         }
     },
     {
@@ -7711,7 +7711,7 @@ endingPicker = (out, totv, aa, quickstats) => {
                     }
                 }, 100);
             }
-                return "<h3>”5% of the nations populer vote...”</h3><p> </p>"
+                return "<h3>5% of the nations populer vote...”</h3><p>Has gone to you! Roughly 500,000 votes or about 5% of the popular vote has been cast for you! It seems that dissatisfaction over Bryans nomination has caused enough of a rift in the party to swing enough of the vote towards you! This no doubt has left an impact on the Bryan campaign, causing enough of a deffection to allow for McKinley to cruise to victory. This remarkable showing on the part of your campaign was something that few within the American political sphere, could have predicted, and its consequences will be far reaching for the Democratic Party, convincing the nation that Bryans nomination was only a temporary flirtation with populism, something that will soon be rectified come the next election. Thanks to you the Gold Democrats have survived as the ruling order of the Democratic Party. Jefferson would be proud.</p>"
         } 
     }
 
